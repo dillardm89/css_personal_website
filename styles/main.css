@@ -1,0 +1,113 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+body {
+    background-color: #D6E6F2;
+}
+
+.navbar-brand img {
+    border-radius: 50px;
+}
+
+.solid-btn:hover {
+    background-color: #B9D7EA;
+}
+
+.light-btn:hover {
+    background-color: #F7FBFC;
+}
+
+section .btn {
+    background-color: #769FCD;
+}
+
+#navigation li a {
+    font-style: bold;
+    font-weight: 600;
+}
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #333333;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main-hero {
+    background-image: url(../images/background.jpg);
+    box-shadow: inset 0 0 0 500px rgba(214, 230, 242, .2);
+    padding: 100px;
+}
+
+#hero-text-card {
+    background-color: #F7FBFC;
+    border-radius: 50px;
+}
+
+#hero-img-card img {
+    border: solid 10px #333333;
+    border-radius: 50px;
+}
+
+#menu {
+    background-color: #769FCD;
+}
+
+#menu .card {
+    background-color: #F7FBFC;
+}
+
+.fa-user-large:hover, .fa-file-lines:hover, .fa-book:hover {
+    color: #333333 !important;
+}
+
+#about-me-card, #resume-card, #blog-card {
+    height: 100%;
+}
+
+#menu h4 {
+    font-style: bold;
+    font-weight: 600;
+}
+
+#contact-me h2 {
+    font-style: bold;
+    font-weight: 600;
+}
+
+#contact-me .card {
+    background-color: #D6E6F2;
+    border: none;
+}
+
+.fa-map:hover, .fa-envelope:hover, .fa-brands:hover {
+    color: #769fcd !important;
+}

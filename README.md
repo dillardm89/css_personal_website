@@ -7,24 +7,22 @@ Personal website using only HTML and CSS
 
 ### Project Specifications:
 
-- Create a personal website using HTML and CSS/Bootstrap only
+- Create a personal website using HTML and CSS/Bootstrap
 - Website should include relevant information for each of the sections listed in "Features" below
 - Website should be visually appealing and easy to navigate
 
 ### Deliverables:
 
-- One HTML file for the structure of the website main page
-- One HTML file for the resume page of the website
-- One CSS file for the styling of the website main page
-- One CSS file for the styling of the resume page
+- One HTML file for each page - main, resume, about me
+- One CSS file for each page - main, resume, about me
 - Any additional assets (e.g. images) used in the website
 
 ### Features:
 
-- A hero section that provides a brief introduction to you and your background
-- A resume page that lists your education, work experience, skills, and other relevant information
-- An about me section that provides additional information about you and your interests
-- A contact me section that includes information for users to get in touch with you
+- A home page with hero section that provides a brief introduction and personal background
+- A resume page that lists education, work experience, skills, and other relevant information
+- An about me page that provides additional information
+- A contact me section on all pages that includes information for users to get in touch
 
 ### Technical Requirements:
 
